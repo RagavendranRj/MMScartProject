@@ -69,7 +69,7 @@ export  default function ProductSearch(){
                                         marks = {
                                              {
                                                 1: "₹1",
-                                                200000: "₹200,000"
+                                                200000: "₹2,00,000"
                                              }   
                                         }
                                         min={1}
