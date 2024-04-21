@@ -23282,6 +23282,27 @@ html {
   display: none
 }
 
+<<<<<<< HEAD
+=======
+.emoji-picker__search-container {
+  position: relative;
+  border-bottom: 2px solid #f5f8fb;
+  padding: .75rem 0
+}
+
+.emoji-picker__search-not-found {
+  padding: .75rem 0;
+  text-align: center
+}
+
+.emoji-picker__search-not-found .h2,
+.emoji-picker__search-not-found h2 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #95aac9
+}
+
+>>>>>>> fae6b569f9c4462aedd36a477f29dbd0d51e1b42
 .emoji-picker__search-not-found-icon {
   margin-bottom: .5rem
 }

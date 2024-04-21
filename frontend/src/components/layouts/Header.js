@@ -15,7 +15,11 @@ export default function Header() {
   const logoutHandler = () => {
     dispatch(logout);
   }
+<<<<<<< HEAD
 console.log(isOnline)
+=======
+
+>>>>>>> fae6b569f9c4462aedd36a477f29dbd0d51e1b42
   return (
     <nav className="navbar row nav-pad-rl bg-light">
       {isAuthenticated && <Socket />}

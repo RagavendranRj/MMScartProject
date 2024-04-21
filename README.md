@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # JVL cart
+=======
+# MMS cart
+>>>>>>> fae6b569f9c4462aedd36a477f29dbd0d51e1b42
 
 an E-commerce Website built with MERN stack.
 

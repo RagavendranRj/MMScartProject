@@ -69,7 +69,11 @@ export  default function ProductSearch(){
                                         marks = {
                                              {
                                                 1: "₹1",
+<<<<<<< HEAD
                                                 200000: "₹2,00,000"
+=======
+                                                200000: "₹200,000"
+>>>>>>> fae6b569f9c4462aedd36a477f29dbd0d51e1b42
                                              }   
                                         }
                                         min={1}

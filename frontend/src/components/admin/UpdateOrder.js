@@ -8,7 +8,11 @@ import { clearOrderUpdated, clearError } from "../../slices/orderSlice";
 import { Link } from "react-router-dom";
 
 export default function UpdateOrder () {
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> fae6b569f9c4462aedd36a477f29dbd0d51e1b42
     
     const { loading, isOrderUpdated, error, orderDetail } = useSelector( state => state.orderState)
     const { user = {}, orderItems = [], shippingInfo = {}, totalPrice = 0, paymentInfo = {}} = orderDetail;
@@ -72,10 +76,17 @@ export default function UpdateOrder () {
     
                             <h4 className="mb-4">Shipping Info</h4>
                             <p><b>Name:</b> {user.name}</p>
+<<<<<<< HEAD
                             <p><strong><b>Emailid:</b></strong> {user.email}</p>
                             <p><b>Phone:</b> {shippingInfo.phoneNo}</p>
                             <p className="mb-4"><b>Address:</b> {shippingInfo.address}, {shippingInfo.city}, {shippingInfo.postalCode}, {shippingInfo.state}, {shippingInfo.country}</p>
                             <p><b>Amount:</b> ₹{totalPrice.toLocaleString()}</p>
+=======
+                            <p><b>Phone:</b> {shippingInfo.phoneNo}</p>
+                            <p className="mb-4"><b>Address:</b>{shippingInfo.address}, {shippingInfo.city}, {shippingInfo.postalCode}, {shippingInfo.state}, {shippingInfo.country}</p>
+                            <p><b>Amount:</b> ₹{totalPrice.toLocaleString()}</p>
+    
+>>>>>>> fae6b569f9c4462aedd36a477f29dbd0d51e1b42
                             <hr />
     
                             <h4 className="my-4">Payment</h4>

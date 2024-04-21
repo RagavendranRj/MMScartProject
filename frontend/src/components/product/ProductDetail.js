@@ -139,7 +139,10 @@ export default function ProductDetail() {
               <p>{product.description}</p>
               <hr />
               <p id="product_seller mb-3">Sold by: <strong>{product.seller}</strong></p>
+<<<<<<< HEAD
               <p>Contact Emailid: <strong>ragavendran2305@gmail.com</strong></p>
+=======
+>>>>>>> fae6b569f9c4462aedd36a477f29dbd0d51e1b42
               {user ?
                 <button onClick={handleShow} type="button" className="btn btn-primary mt-4" data-toggle="modal" data-target="#ratingModal">
                   Submit Your Review
@@ -171,9 +174,16 @@ export default function ProductDetail() {
 
                       </ul>
 
+<<<<<<< HEAD
                       <textarea onChange={(e) => setComment(e.target.value)} name="review" id="review" className="form-control mt-3"></textarea>
                       
                       <button disabled={loading} onClick={reviewHandler} aria-label="Close" className="btn my-3 float-right review-btn px-4 text-white" style={{ backgroundColor: 'blue', color: 'white' }}>Submit </button>
+=======
+                      <textarea onChange={(e) => setComment(e.target.value)} name="review" id="review" className="form-control mt-3">
+
+                      </textarea>
+                      <button disabled={loading} onClick={reviewHandler} aria-label="Close" className="btn my-3 float-right review-btn px-4 text-white">Submit</button>
+>>>>>>> fae6b569f9c4462aedd36a477f29dbd0d51e1b42
                     </Modal.Body>
 
                   </Modal>
