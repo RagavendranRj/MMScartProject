@@ -1,5 +1,4 @@
-# MMS cart
->>>>>>> fae6b569f9c4462aedd36a477f29dbd0d51e1b42
+# MMScart
 
 an E-commerce Website built with MERN stack.
 
