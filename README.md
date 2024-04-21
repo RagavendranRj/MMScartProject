@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# JVL cart
-=======
 # MMS cart
 >>>>>>> fae6b569f9c4462aedd36a477f29dbd0d51e1b42
 
@@ -22,7 +19,7 @@ after that open the backend/config/config.env
 and update the MongoDB connection string
 ```bash
 ...
-DB_LOCAL_URI=mongodb://localhost:27017/jvlcart
+DB_LOCAL_URI=mongodb://localhost:27017/mmscart
 ```
 
 navigate back to "root" folder and run this command for loading demo data
